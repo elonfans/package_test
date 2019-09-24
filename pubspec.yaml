@@ -1,0 +1,25 @@
+name: xm_app_core_plugin
+description: A new flutter plugin xm_app_core_plugin.
+version: 0.0.1
+author: page.huang<pagehuang@xiaoe-tech.com>
+homepage: http://talkcheap.xiaoeknow.com/ios/module/xm_app_core_plugin
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  plugin:
+    androidPackage: com.example.xm_app_core_plugin
+    pluginClass: XmAppCorePlugin
+
+
